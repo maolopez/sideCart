@@ -1,0 +1,58 @@
+version: '3.8'
+
+services:
+  sidecart:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: sidecart-app
+    restart: unless-stopped
+    
+    # Environment variables for database connection
+    environment:
+      - DB_HOST=${DB_HOST}
+      - DB_PORT=${DB_PORT:-5432}
+      - DB_NAME=${DB_NAME}
+      - DB_USERNAME=${DB_READONLY_USERNAME}
+      - DB_PASSWORD=${DB_READONLY_PASSWORD}
+      - DB_SSLMODE=${DB_SSLMODE:-require}
+      - DB_CONNECT_TIMEOUT=${DB_CONNECT_TIMEOUT:-10}
+    
+    # Volume mounts for logs and data persistence
+    volumes:
+      - ./logs:/app/logs
+      - ./data:/app/data
+    
+    # Health check
+    healthcheck:
+      test: ["CMD", "python", "-c", "import psycopg2; print('Health check passed')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    
+    # Security settings
+    security_opt:
+      - no-new-privileges:true
+    
+    # Resource limits
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 512M
+        reservations:
+          cpus: '0.1'
+          memory: 128M
+    
+    # Network settings
+    networks:
+      - sidecart-network
+
+networks:
+  sidecart-network:
+    driver: bridge
+    
+volumes:
+  logs:
+  data:

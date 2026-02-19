@@ -1,0 +1,223 @@
+{
+  "sideCart/modules/posgreSQL/main.tf": {
+    "filename": "main.tf",
+    "path": "sideCart/modules/posgreSQL/main.tf",
+    "version": "1.1",
+    "chunks": {
+      "d30d55": {
+        "user": "Mauricio Gutierrez Lopez",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1771529151,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.1.2",
+        "source": "agent",
+        "type": "agentEditTool",
+        "hash": "e59568c0",
+        "messageId": "7a09e077-7238-4d42-87bd-601cda1d2cdb",
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "d30d55",
+        "hash": "620cd239",
+        "encoded": "resource%20%22aws_db_subnet_group%22%20%22this%22%20%7B",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "d30d55",
+        "hash": "8f36c4e2",
+        "encoded": "name%20%20%20%20%20%20%20=%20%22$%7Bvar.db_name%7D-subnet-group%22",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "d30d55",
+        "hash": "d3a012e5",
+        "encoded": "subnet_ids%20=%20var.subnet_ids",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "d30d55",
+        "hash": "aaa432ad",
+        "encoded": "tags%20=%20%7B",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "d30d55",
+        "hash": "1a3a6715",
+        "encoded": "Name%20=%20%22$%7Bvar.db_name%7D-subnet-group%22",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "d30d55",
+        "hash": "03469704",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "d30d55",
+        "hash": "102658a5",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "d30d55",
+        "hash": "5de9103f",
+        "encoded": "resource%20%22aws_db_instance%22%20%22this%22%20%7B",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "d30d55",
+        "hash": "d01c0d88",
+        "encoded": "identifier%20%20%20%20%20%20%20%20%20%20%20%20%20%20=%20var.db_name",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "d30d55",
+        "hash": "0a161c38",
+        "encoded": "engine%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20=%20%22postgres%22",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "d30d55",
+        "hash": "988a32aa",
+        "encoded": "engine_version%20%20%20%20%20%20%20%20%20%20=%20%2215.4%22",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "d30d55",
+        "hash": "49a762b9",
+        "encoded": "instance_class%20%20%20%20%20%20%20%20%20%20=%20var.db_instance_class",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "d30d55",
+        "hash": "80c5b1de",
+        "encoded": "allocated_storage%20%20%20%20%20%20%20=%20var.allocated_storage",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "d30d55",
+        "hash": "020bb9b1",
+        "encoded": "storage_type%20%20%20%20%20%20%20%20%20%20%20%20=%20%22gp2%22",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "d30d55",
+        "hash": "327c1828",
+        "encoded": "storage_encrypted%20%20%20%20%20%20%20=%20true",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "d30d55",
+        "hash": "0c876cc0",
+        "encoded": "db_name%20%20=%20var.db_name",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "d30d55",
+        "hash": "1ab303f7",
+        "encoded": "username%20=%20var.db_username",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "d30d55",
+        "hash": "0dc8220f",
+        "encoded": "password%20=%20var.db_password",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "d30d55",
+        "hash": "52c7b119",
+        "encoded": "db_subnet_group_name%20%20%20=%20aws_db_subnet_group.this.name",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "d30d55",
+        "hash": "ea22aad5",
+        "encoded": "vpc_security_group_ids%20=%20var.vpc_security_group_ids",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "d30d55",
+        "hash": "41f716b8",
+        "encoded": "skip_final_snapshot%20%20%20%20%20=%20true",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "d30d55",
+        "hash": "ff053288",
+        "encoded": "publicly_accessible%20%20%20%20%20=%20var.publicly_accessible",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "d30d55",
+        "hash": "154583f2",
+        "encoded": "deletion_protection%20%20%20%20%20=%20var.deletion_protection",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "d30d55",
+        "hash": "d4be4b8b",
+        "encoded": "backup_retention_period%20=%20var.backup_retention_period",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "d30d55",
+        "hash": "858079f1",
+        "encoded": "backup_window%20%20%20%20%20%20%20%20%20%20=%20%2203:00-04:00%22",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "d30d55",
+        "hash": "46799c39",
+        "encoded": "maintenance_window%20%20%20%20%20=%20%22sun:04:00-sun:05:00%22",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "d30d55",
+        "hash": "eb27fd12",
+        "encoded": "performance_insights_enabled%20=%20false",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "d30d55",
+        "hash": "c542d66c",
+        "encoded": "monitoring_interval%20%20%20%20%20%20%20%20%20=%200",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "d30d55",
+        "hash": "abe9136c",
+        "encoded": "tags%20=%20%7B",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "d30d55",
+        "hash": "65b6498a",
+        "encoded": "Name%20%20%20%20%20%20%20%20=%20var.db_name",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "d30d55",
+        "hash": "36b6f696",
+        "encoded": "Environment%20=%20%22poc%22",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "d30d55",
+        "hash": "1b754c76",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "d30d55",
+        "hash": "4771cdac",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

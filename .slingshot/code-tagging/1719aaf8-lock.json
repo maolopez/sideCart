@@ -1,0 +1,255 @@
+{
+  "sideCart/modules/posgreSQL/outputs.tf": {
+    "filename": "outputs.tf",
+    "path": "sideCart/modules/posgreSQL/outputs.tf",
+    "version": "1.1",
+    "chunks": {
+      "b83ba4": {
+        "user": "Mauricio Gutierrez Lopez",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1771529107,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.1.2",
+        "source": "agent",
+        "type": "agentEditTool",
+        "hash": "255d03da",
+        "messageId": "7a09e077-7238-4d42-87bd-601cda1d2cdb",
+        "codeBlockId": null,
+        "isActive": true
+      },
+      "6184cb": {
+        "user": "Mauricio Gutierrez Lopez",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1771530479,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.1.2",
+        "source": "agent",
+        "type": "agentEditTool",
+        "hash": "adf8d803",
+        "messageId": "7a09e077-7238-4d42-87bd-601cda1d2cdb",
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "b83ba4",
+        "hash": "b2daac00",
+        "encoded": "output%20%22endpoint%22%20%7B",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "b83ba4",
+        "hash": "b2fc18ab",
+        "encoded": "description%20=%20%22RDS%20instance%20endpoint%22",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "b83ba4",
+        "hash": "f8a1b304",
+        "encoded": "value%20%20%20%20%20%20%20=%20aws_db_instance.this.endpoint",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "b83ba4",
+        "hash": "973e69d4",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "b83ba4",
+        "hash": "f3f24001",
+        "encoded": "output%20%22port%22%20%7B",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "b83ba4",
+        "hash": "22329bfb",
+        "encoded": "description%20=%20%22RDS%20instance%20port%22",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "b83ba4",
+        "hash": "0c2b139b",
+        "encoded": "value%20%20%20%20%20%20%20=%20aws_db_instance.this.port",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "b83ba4",
+        "hash": "1c082ee4",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "b83ba4",
+        "hash": "788d70ca",
+        "encoded": "output%20%22db_name%22%20%7B",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "b83ba4",
+        "hash": "a906b7c7",
+        "encoded": "description%20=%20%22Database%20name%22",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "b83ba4",
+        "hash": "67a446f2",
+        "encoded": "value%20%20%20%20%20%20%20=%20aws_db_instance.this.db_name",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "b83ba4",
+        "hash": "e683dcf7",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "b83ba4",
+        "hash": "2ac87319",
+        "encoded": "output%20%22db_username%22%20%7B",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "b83ba4",
+        "hash": "f6e54b37",
+        "encoded": "description%20=%20%22Database%20username%22",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "b83ba4",
+        "hash": "b7bbda2a",
+        "encoded": "value%20%20%20%20%20%20%20=%20aws_db_instance.this.username",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "b83ba4",
+        "hash": "e2fd9e2a",
+        "encoded": "sensitive%20%20%20=%20true",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "b83ba4",
+        "hash": "ee39c532",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "6184cb",
+        "hash": "77f358f2",
+        "encoded": "output%20%22db_password%22%20%7B",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "6184cb",
+        "hash": "431491e7",
+        "encoded": "description%20=%20%22Database%20password%22",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "6184cb",
+        "hash": "9ddf29a7",
+        "encoded": "value%20%20%20%20%20%20%20=%20aws_db_instance.this.password",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "6184cb",
+        "hash": "2f46995d",
+        "encoded": "sensitive%20%20%20=%20true",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "6184cb",
+        "hash": "840004ae",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "6184cb",
+        "hash": "91e6f0db",
+        "encoded": "output%20%22readonly_username%22%20%7B",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "6184cb",
+        "hash": "e14f1ab7",
+        "encoded": "description%20=%20%22Read-only%20database%20username%22",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "6184cb",
+        "hash": "6e2f88df",
+        "encoded": "value%20%20%20%20%20%20%20=%20postgresql_role.readonly_user.name",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "6184cb",
+        "hash": "9b241e75",
+        "encoded": "sensitive%20%20%20=%20true",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "6184cb",
+        "hash": "43353d17",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "6184cb",
+        "hash": "3a5c2e14",
+        "encoded": "output%20%22readonly_password%22%20%7B",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "6184cb",
+        "hash": "35db3944",
+        "encoded": "description%20=%20%22Read-only%20database%20password%22",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "6184cb",
+        "hash": "d03ddacb",
+        "encoded": "value%20%20%20%20%20%20%20=%20var.readonly_password",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "6184cb",
+        "hash": "1b23258f",
+        "encoded": "sensitive%20%20%20=%20true",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "6184cb",
+        "hash": "880eeeff",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "b83ba4",
+        "hash": "49bce6f1",
+        "encoded": "description%20=%20%22Database%20password%22",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "b83ba4",
+        "hash": "5bd0b41a",
+        "encoded": "value%20%20%20%20%20%20%20=%20aws_db_instance.this.password",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "b83ba4",
+        "hash": "fcc2d829",
+        "encoded": "sensitive%20%20%20=%20true",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "b83ba4",
+        "hash": "98f83ab6",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

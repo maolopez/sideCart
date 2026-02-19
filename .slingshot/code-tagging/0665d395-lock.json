@@ -1,0 +1,1207 @@
+{
+  ".cart/ABOUT.md": {
+    "filename": "ABOUT.md",
+    "path": ".cart/ABOUT.md",
+    "version": "1.1",
+    "chunks": {
+      "caa1b6": {
+        "user": "Mauricio Gutierrez Lopez",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1771532849,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.1.2",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "hash": "3d04235c",
+        "messageId": "7a09e077-7238-4d42-87bd-601cda1d2cdb",
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "caa1b6",
+        "hash": "56d23f29",
+        "encoded": "#%20SideCart%20-%20PostgreSQL%20Database%20Access%20Tool",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "caa1b6",
+        "hash": "cc5dae75",
+        "encoded": "SideCart%20is%20a%20secure%20Python%20application%20designed%20to%20provide%20read-only%20access%20to%20PostgreSQL%20databases.%20It%20features%20connection%20pooling,%20comprehensive%20logging,%20and%20can%20be%20run%20either%20directly%20as%20a%20Python%20script%20or%20within%20a%20Docker%20container.",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "caa1b6",
+        "hash": "bb863859",
+        "encoded": "##%20Overview",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "caa1b6",
+        "hash": "7a455224",
+        "encoded": "SideCart%20connects%20to%20a%20PostgreSQL%20database%20using%20environment%20variables%20for%20configuration%20and%20provides:",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "caa1b6",
+        "hash": "c450940b",
+        "encoded": "-%20Secure,%20read-only%20database%20access",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "caa1b6",
+        "hash": "d900fa7a",
+        "encoded": "-%20Connection%20pooling%20for%20optimal%20performance",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "caa1b6",
+        "hash": "cbd192e7",
+        "encoded": "-%20Comprehensive%20logging%20and%20error%20handling",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "caa1b6",
+        "hash": "1cccc872",
+        "encoded": "-%20Graceful%20shutdown%20handling",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "caa1b6",
+        "hash": "1ee68188",
+        "encoded": "-%20Sample%20queries%20to%20demonstrate%20functionality",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "caa1b6",
+        "hash": "a14072f5",
+        "encoded": "##%20Prerequisites",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "caa1b6",
+        "hash": "7ccf7973",
+        "encoded": "-%20Python%203.11%20or%20higher%20(for%20direct%20usage)",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "caa1b6",
+        "hash": "7841ad77",
+        "encoded": "-%20Docker%20(for%20containerized%20usage)",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "caa1b6",
+        "hash": "0be43f58",
+        "encoded": "-%20Access%20to%20a%20PostgreSQL%20database",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "caa1b6",
+        "hash": "8af4d63e",
+        "encoded": "-%20Database%20credentials%20(preferably%20read-only%20user)",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "caa1b6",
+        "hash": "fb395a2a",
+        "encoded": "##%20Usage%20Methods",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "caa1b6",
+        "hash": "46d3baef",
+        "encoded": "###%20Method%201:%20Direct%20Python%20Execution",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "caa1b6",
+        "hash": "308b5317",
+        "encoded": "####%201.%20Install%20Dependencies",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "caa1b6",
+        "hash": "4f1f88e4",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "caa1b6",
+        "hash": "c71818e1",
+        "encoded": "#%20Install%20required%20Python%20packages",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "caa1b6",
+        "hash": "7856685d",
+        "encoded": "pip%20install%20psycopg2-binary%20python-dotenv",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "caa1b6",
+        "hash": "5d2de7a5",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "caa1b6",
+        "hash": "8c87d53a",
+        "encoded": "####%202.%20Configure%20Environment%20Variables",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "caa1b6",
+        "hash": "b3e1cc03",
+        "encoded": "Create%20a%20%60.env%60%20file%20in%20the%20same%20directory%20as%20%60sidecart.py%60:",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "caa1b6",
+        "hash": "a01c0fa8",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "caa1b6",
+        "hash": "80d2df96",
+        "encoded": "#%20Copy%20the%20example%20file",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "caa1b6",
+        "hash": "b282ff3e",
+        "encoded": "cp%20.env.example%20.env",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "caa1b6",
+        "hash": "013d9dd8",
+        "encoded": "#%20Edit%20the%20.env%20file%20with%20your%20database%20credentials",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "caa1b6",
+        "hash": "cd4430ef",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "caa1b6",
+        "hash": "cb3c0e3d",
+        "encoded": "Required%20environment%20variables:",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "caa1b6",
+        "hash": "6ddeff16",
+        "encoded": "%60%60%60env",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "caa1b6",
+        "hash": "d92f9428",
+        "encoded": "DB_HOST=your-database-host",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "caa1b6",
+        "hash": "a75c88f5",
+        "encoded": "DB_PORT=5432",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "caa1b6",
+        "hash": "75124072",
+        "encoded": "DB_NAME=your-database-name",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "caa1b6",
+        "hash": "1c370440",
+        "encoded": "DB_USERNAME=your-username",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "caa1b6",
+        "hash": "705adc5b",
+        "encoded": "DB_PASSWORD=your-password",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "caa1b6",
+        "hash": "75fa00fc",
+        "encoded": "DB_SSLMODE=require",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "caa1b6",
+        "hash": "296b5e7c",
+        "encoded": "DB_CONNECT_TIMEOUT=10",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "caa1b6",
+        "hash": "a9b40cba",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "53": {
+        "chunkId": "caa1b6",
+        "hash": "be15826b",
+        "encoded": "####%203.%20Run%20the%20Application",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "caa1b6",
+        "hash": "88e2220b",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "caa1b6",
+        "hash": "5130ad2c",
+        "encoded": "#%20Make%20the%20script%20executable%20(optional)",
+        "prevChunkIds": []
+      },
+      "57": {
+        "chunkId": "caa1b6",
+        "hash": "8b2af5b7",
+        "encoded": "chmod%20+x%20sidecart.py",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "caa1b6",
+        "hash": "a9ab1420",
+        "encoded": "#%20Run%20directly",
+        "prevChunkIds": []
+      },
+      "60": {
+        "chunkId": "caa1b6",
+        "hash": "18cb346c",
+        "encoded": "python%20sidecart.py",
+        "prevChunkIds": []
+      },
+      "62": {
+        "chunkId": "caa1b6",
+        "hash": "5b6d9953",
+        "encoded": "#%20Or%20if%20made%20executable",
+        "prevChunkIds": []
+      },
+      "63": {
+        "chunkId": "caa1b6",
+        "hash": "2731476a",
+        "encoded": "./sidecart.py",
+        "prevChunkIds": []
+      },
+      "64": {
+        "chunkId": "caa1b6",
+        "hash": "23226bcb",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "66": {
+        "chunkId": "caa1b6",
+        "hash": "c63ca6a0",
+        "encoded": "####%204.%20Expected%20Output",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "caa1b6",
+        "hash": "4e958d21",
+        "encoded": "The%20application%20will:",
+        "prevChunkIds": []
+      },
+      "69": {
+        "chunkId": "caa1b6",
+        "hash": "bc4659ac",
+        "encoded": "-%20Initialize%20database%20connection%20pool",
+        "prevChunkIds": []
+      },
+      "70": {
+        "chunkId": "caa1b6",
+        "hash": "9c0497ba",
+        "encoded": "-%20Test%20database%20connectivity",
+        "prevChunkIds": []
+      },
+      "71": {
+        "chunkId": "caa1b6",
+        "hash": "93db1809",
+        "encoded": "-%20Display%20table%20information",
+        "prevChunkIds": []
+      },
+      "72": {
+        "chunkId": "caa1b6",
+        "hash": "0b69637c",
+        "encoded": "-%20Run%20sample%20queries",
+        "prevChunkIds": []
+      },
+      "73": {
+        "chunkId": "caa1b6",
+        "hash": "57fcab2f",
+        "encoded": "-%20Enter%20a%20monitoring%20loop%20(press%20Ctrl+C%20to%20stop)",
+        "prevChunkIds": []
+      },
+      "75": {
+        "chunkId": "caa1b6",
+        "hash": "af1e3ca0",
+        "encoded": "###%20Method%202:%20Docker%20Container%20Execution",
+        "prevChunkIds": []
+      },
+      "77": {
+        "chunkId": "caa1b6",
+        "hash": "bb7e3d3f",
+        "encoded": "####%201.%20Build%20the%20Docker%20Image",
+        "prevChunkIds": []
+      },
+      "79": {
+        "chunkId": "caa1b6",
+        "hash": "874207f3",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "80": {
+        "chunkId": "caa1b6",
+        "hash": "7b8efaa5",
+        "encoded": "#%20Build%20the%20container%20image",
+        "prevChunkIds": []
+      },
+      "81": {
+        "chunkId": "caa1b6",
+        "hash": "e899bba1",
+        "encoded": "docker%20build%20-t%20sidecart:latest%20.",
+        "prevChunkIds": []
+      },
+      "83": {
+        "chunkId": "caa1b6",
+        "hash": "68b705d4",
+        "encoded": "#%20Verify%20the%20image%20was%20created",
+        "prevChunkIds": []
+      },
+      "84": {
+        "chunkId": "caa1b6",
+        "hash": "0e5ffd9b",
+        "encoded": "docker%20images%20%7C%20grep%20sidecart",
+        "prevChunkIds": []
+      },
+      "85": {
+        "chunkId": "caa1b6",
+        "hash": "2e72b4ad",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "87": {
+        "chunkId": "caa1b6",
+        "hash": "f47fc2df",
+        "encoded": "####%202.%20Prepare%20Environment%20File",
+        "prevChunkIds": []
+      },
+      "89": {
+        "chunkId": "caa1b6",
+        "hash": "fd614f45",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "90": {
+        "chunkId": "caa1b6",
+        "hash": "d39d2f47",
+        "encoded": "#%20Copy%20and%20configure%20environment%20variables",
+        "prevChunkIds": []
+      },
+      "91": {
+        "chunkId": "caa1b6",
+        "hash": "e73b6d57",
+        "encoded": "cp%20.env.example%20.env",
+        "prevChunkIds": []
+      },
+      "93": {
+        "chunkId": "caa1b6",
+        "hash": "17f1356b",
+        "encoded": "#%20Edit%20.env%20with%20your%20actual%20database%20credentials",
+        "prevChunkIds": []
+      },
+      "94": {
+        "chunkId": "caa1b6",
+        "hash": "e6b9d5ea",
+        "encoded": "vim%20.env%20%20#%20or%20use%20your%20preferred%20editor",
+        "prevChunkIds": []
+      },
+      "95": {
+        "chunkId": "caa1b6",
+        "hash": "ea211396",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "97": {
+        "chunkId": "caa1b6",
+        "hash": "d703945c",
+        "encoded": "####%203.%20Run%20the%20Container",
+        "prevChunkIds": []
+      },
+      "99": {
+        "chunkId": "caa1b6",
+        "hash": "ca20e8ed",
+        "encoded": "**Option%20A:%20Using%20environment%20file**",
+        "prevChunkIds": []
+      },
+      "100": {
+        "chunkId": "caa1b6",
+        "hash": "ce37855e",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "101": {
+        "chunkId": "caa1b6",
+        "hash": "2734fdc5",
+        "encoded": "#%20Run%20with%20environment%20file",
+        "prevChunkIds": []
+      },
+      "102": {
+        "chunkId": "caa1b6",
+        "hash": "85842c2f",
+        "encoded": "docker%20run%20--env-file%20.env%20sidecart:latest",
+        "prevChunkIds": []
+      },
+      "103": {
+        "chunkId": "caa1b6",
+        "hash": "d273f303",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "105": {
+        "chunkId": "caa1b6",
+        "hash": "b38caa9d",
+        "encoded": "**Option%20B:%20Using%20individual%20environment%20variables**",
+        "prevChunkIds": []
+      },
+      "106": {
+        "chunkId": "caa1b6",
+        "hash": "cdac4669",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "107": {
+        "chunkId": "caa1b6",
+        "hash": "00db1e6b",
+        "encoded": "docker%20run%20%5C",
+        "prevChunkIds": []
+      },
+      "108": {
+        "chunkId": "caa1b6",
+        "hash": "3c75a81f",
+        "encoded": "-e%20DB_HOST=%22your-database-host%22%20%5C",
+        "prevChunkIds": []
+      },
+      "109": {
+        "chunkId": "caa1b6",
+        "hash": "d498daca",
+        "encoded": "-e%20DB_PORT=%225432%22%20%5C",
+        "prevChunkIds": []
+      },
+      "110": {
+        "chunkId": "caa1b6",
+        "hash": "cd24f0a9",
+        "encoded": "-e%20DB_NAME=%22your-database-name%22%20%5C",
+        "prevChunkIds": []
+      },
+      "111": {
+        "chunkId": "caa1b6",
+        "hash": "5d8e1c26",
+        "encoded": "-e%20DB_USERNAME=%22your-username%22%20%5C",
+        "prevChunkIds": []
+      },
+      "112": {
+        "chunkId": "caa1b6",
+        "hash": "421cfc6f",
+        "encoded": "-e%20DB_PASSWORD=%22your-password%22%20%5C",
+        "prevChunkIds": []
+      },
+      "113": {
+        "chunkId": "caa1b6",
+        "hash": "7b3f2422",
+        "encoded": "-e%20DB_SSLMODE=%22require%22%20%5C",
+        "prevChunkIds": []
+      },
+      "114": {
+        "chunkId": "caa1b6",
+        "hash": "08ab766d",
+        "encoded": "sidecart:latest",
+        "prevChunkIds": []
+      },
+      "115": {
+        "chunkId": "caa1b6",
+        "hash": "c50f9948",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "117": {
+        "chunkId": "caa1b6",
+        "hash": "af8263bd",
+        "encoded": "**Option%20C:%20Interactive%20mode%20with%20volume%20mounting**",
+        "prevChunkIds": []
+      },
+      "118": {
+        "chunkId": "caa1b6",
+        "hash": "8fa37d0e",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "119": {
+        "chunkId": "caa1b6",
+        "hash": "2aad696f",
+        "encoded": "#%20Run%20interactively%20with%20log%20persistence",
+        "prevChunkIds": []
+      },
+      "120": {
+        "chunkId": "caa1b6",
+        "hash": "6dd7a5ae",
+        "encoded": "docker%20run%20-it%20%5C",
+        "prevChunkIds": []
+      },
+      "121": {
+        "chunkId": "caa1b6",
+        "hash": "59e89d4b",
+        "encoded": "--env-file%20.env%20%5C",
+        "prevChunkIds": []
+      },
+      "122": {
+        "chunkId": "caa1b6",
+        "hash": "01e9aa3a",
+        "encoded": "-v%20$(pwd)/logs:/app/logs%20%5C",
+        "prevChunkIds": []
+      },
+      "123": {
+        "chunkId": "caa1b6",
+        "hash": "d42ffeda",
+        "encoded": "sidecart:latest",
+        "prevChunkIds": []
+      },
+      "124": {
+        "chunkId": "caa1b6",
+        "hash": "3b55dd73",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "126": {
+        "chunkId": "caa1b6",
+        "hash": "58772776",
+        "encoded": "####%204.%20Container%20Management",
+        "prevChunkIds": []
+      },
+      "128": {
+        "chunkId": "caa1b6",
+        "hash": "ee0bc53b",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "129": {
+        "chunkId": "caa1b6",
+        "hash": "4a0feba3",
+        "encoded": "#%20Run%20in%20detached%20mode",
+        "prevChunkIds": []
+      },
+      "130": {
+        "chunkId": "caa1b6",
+        "hash": "3527b5f6",
+        "encoded": "docker%20run%20-d%20--name%20sidecart-app%20--env-file%20.env%20sidecart:latest",
+        "prevChunkIds": []
+      },
+      "132": {
+        "chunkId": "caa1b6",
+        "hash": "27a681dc",
+        "encoded": "#%20View%20logs",
+        "prevChunkIds": []
+      },
+      "133": {
+        "chunkId": "caa1b6",
+        "hash": "05615579",
+        "encoded": "docker%20logs%20sidecart-app",
+        "prevChunkIds": []
+      },
+      "135": {
+        "chunkId": "caa1b6",
+        "hash": "53483d39",
+        "encoded": "#%20Follow%20logs%20in%20real-time",
+        "prevChunkIds": []
+      },
+      "136": {
+        "chunkId": "caa1b6",
+        "hash": "65130beb",
+        "encoded": "docker%20logs%20-f%20sidecart-app",
+        "prevChunkIds": []
+      },
+      "138": {
+        "chunkId": "caa1b6",
+        "hash": "6be9d973",
+        "encoded": "#%20Stop%20the%20container",
+        "prevChunkIds": []
+      },
+      "139": {
+        "chunkId": "caa1b6",
+        "hash": "d0008624",
+        "encoded": "docker%20stop%20sidecart-app",
+        "prevChunkIds": []
+      },
+      "141": {
+        "chunkId": "caa1b6",
+        "hash": "ad547c36",
+        "encoded": "#%20Remove%20the%20container",
+        "prevChunkIds": []
+      },
+      "142": {
+        "chunkId": "caa1b6",
+        "hash": "87c073da",
+        "encoded": "docker%20rm%20sidecart-app",
+        "prevChunkIds": []
+      },
+      "144": {
+        "chunkId": "caa1b6",
+        "hash": "e75382e6",
+        "encoded": "#%20Check%20container%20health",
+        "prevChunkIds": []
+      },
+      "145": {
+        "chunkId": "caa1b6",
+        "hash": "b48baf06",
+        "encoded": "docker%20ps",
+        "prevChunkIds": []
+      },
+      "146": {
+        "chunkId": "caa1b6",
+        "hash": "5b532b7f",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "148": {
+        "chunkId": "caa1b6",
+        "hash": "6da8e2ff",
+        "encoded": "##%20Configuration%20Options",
+        "prevChunkIds": []
+      },
+      "150": {
+        "chunkId": "caa1b6",
+        "hash": "9b7e3151",
+        "encoded": "###%20Required%20Environment%20Variables",
+        "prevChunkIds": []
+      },
+      "152": {
+        "chunkId": "caa1b6",
+        "hash": "718de3ab",
+        "encoded": "%7C%20Variable%20%7C%20Description%20%7C%20Example%20%7C",
+        "prevChunkIds": []
+      },
+      "153": {
+        "chunkId": "caa1b6",
+        "hash": "0db9a97f",
+        "encoded": "%7C----------%7C-------------%7C---------%7C",
+        "prevChunkIds": []
+      },
+      "154": {
+        "chunkId": "caa1b6",
+        "hash": "0ddd494e",
+        "encoded": "%7C%20%60DB_HOST%60%20%7C%20Database%20hostname%20or%20IP%20%7C%20%60mydb.amazonaws.com%60%20%7C",
+        "prevChunkIds": []
+      },
+      "155": {
+        "chunkId": "caa1b6",
+        "hash": "11b59107",
+        "encoded": "%7C%20%60DB_PORT%60%20%7C%20Database%20port%20%7C%20%605432%60%20%7C",
+        "prevChunkIds": []
+      },
+      "156": {
+        "chunkId": "caa1b6",
+        "hash": "eb382b37",
+        "encoded": "%7C%20%60DB_NAME%60%20%7C%20Database%20name%20%7C%20%60myapp_db%60%20%7C",
+        "prevChunkIds": []
+      },
+      "157": {
+        "chunkId": "caa1b6",
+        "hash": "9344743f",
+        "encoded": "%7C%20%60DB_USERNAME%60%20%7C%20Database%20username%20%7C%20%60readonly_user%60%20%7C",
+        "prevChunkIds": []
+      },
+      "158": {
+        "chunkId": "caa1b6",
+        "hash": "66aefc3c",
+        "encoded": "%7C%20%60DB_PASSWORD%60%20%7C%20Database%20password%20%7C%20%60secure_password%60%20%7C",
+        "prevChunkIds": []
+      },
+      "160": {
+        "chunkId": "caa1b6",
+        "hash": "9e207ffd",
+        "encoded": "###%20Optional%20Environment%20Variables",
+        "prevChunkIds": []
+      },
+      "162": {
+        "chunkId": "caa1b6",
+        "hash": "daf18052",
+        "encoded": "%7C%20Variable%20%7C%20Description%20%7C%20Default%20%7C",
+        "prevChunkIds": []
+      },
+      "163": {
+        "chunkId": "caa1b6",
+        "hash": "1b300155",
+        "encoded": "%7C----------%7C-------------%7C----------%7C",
+        "prevChunkIds": []
+      },
+      "164": {
+        "chunkId": "caa1b6",
+        "hash": "5730b1d9",
+        "encoded": "%7C%20%60DB_SSLMODE%60%20%7C%20SSL%20connection%20mode%20%7C%20%60require%60%20%7C",
+        "prevChunkIds": []
+      },
+      "165": {
+        "chunkId": "caa1b6",
+        "hash": "f0153a5d",
+        "encoded": "%7C%20%60DB_CONNECT_TIMEOUT%60%20%7C%20Connection%20timeout%20(seconds)%20%7C%20%6010%60%20%7C",
+        "prevChunkIds": []
+      },
+      "166": {
+        "chunkId": "caa1b6",
+        "hash": "77c7f102",
+        "encoded": "%7C%20%60LOG_LEVEL%60%20%7C%20Logging%20level%20%7C%20%60INFO%60%20%7C",
+        "prevChunkIds": []
+      },
+      "167": {
+        "chunkId": "caa1b6",
+        "hash": "cbc02857",
+        "encoded": "%7C%20%60APP_ENV%60%20%7C%20Application%20environment%20%7C%20%60production%60%20%7C",
+        "prevChunkIds": []
+      },
+      "169": {
+        "chunkId": "caa1b6",
+        "hash": "dacb7622",
+        "encoded": "##%20Security%20Considerations",
+        "prevChunkIds": []
+      },
+      "171": {
+        "chunkId": "caa1b6",
+        "hash": "68057668",
+        "encoded": "1.%20**Read-Only%20Access**:%20Use%20a%20database%20user%20with%20only%20SELECT%20permissions",
+        "prevChunkIds": []
+      },
+      "172": {
+        "chunkId": "caa1b6",
+        "hash": "557a57e3",
+        "encoded": "2.%20**SSL%20Connections**:%20Always%20use%20%60DB_SSLMODE=require%60%20for%20production",
+        "prevChunkIds": []
+      },
+      "173": {
+        "chunkId": "caa1b6",
+        "hash": "75279248",
+        "encoded": "3.%20**Environment%20Variables**:%20Never%20commit%20%60.env%60%20files%20with%20real%20credentials",
+        "prevChunkIds": []
+      },
+      "174": {
+        "chunkId": "caa1b6",
+        "hash": "f2a2de3d",
+        "encoded": "4.%20**Container%20Security**:%20The%20Docker%20image%20runs%20as%20a%20non-root%20user",
+        "prevChunkIds": []
+      },
+      "175": {
+        "chunkId": "caa1b6",
+        "hash": "b0537757",
+        "encoded": "5.%20**Network%20Security**:%20Ensure%20database%20access%20is%20properly%20firewalled",
+        "prevChunkIds": []
+      },
+      "177": {
+        "chunkId": "caa1b6",
+        "hash": "8d7276f4",
+        "encoded": "##%20Troubleshooting",
+        "prevChunkIds": []
+      },
+      "179": {
+        "chunkId": "caa1b6",
+        "hash": "7959cc1c",
+        "encoded": "###%20Common%20Issues",
+        "prevChunkIds": []
+      },
+      "181": {
+        "chunkId": "caa1b6",
+        "hash": "13f5f70c",
+        "encoded": "**Connection%20Refused**",
+        "prevChunkIds": []
+      },
+      "182": {
+        "chunkId": "caa1b6",
+        "hash": "3725d85d",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "183": {
+        "chunkId": "caa1b6",
+        "hash": "96d3c76f",
+        "encoded": "#%20Check%20if%20database%20is%20accessible",
+        "prevChunkIds": []
+      },
+      "184": {
+        "chunkId": "caa1b6",
+        "hash": "e3bcf8fa",
+        "encoded": "telnet%20$DB_HOST%20$DB_PORT",
+        "prevChunkIds": []
+      },
+      "186": {
+        "chunkId": "caa1b6",
+        "hash": "630946ec",
+        "encoded": "#%20Verify%20credentials",
+        "prevChunkIds": []
+      },
+      "187": {
+        "chunkId": "caa1b6",
+        "hash": "9f1dbbe4",
+        "encoded": "psql%20-h%20$DB_HOST%20-p%20$DB_PORT%20-U%20$DB_USERNAME%20-d%20$DB_NAME",
+        "prevChunkIds": []
+      },
+      "188": {
+        "chunkId": "caa1b6",
+        "hash": "9c195bb5",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "190": {
+        "chunkId": "caa1b6",
+        "hash": "17c0a6a6",
+        "encoded": "**Permission%20Denied**",
+        "prevChunkIds": []
+      },
+      "191": {
+        "chunkId": "caa1b6",
+        "hash": "c1880321",
+        "encoded": "-%20Ensure%20the%20database%20user%20has%20SELECT%20permissions",
+        "prevChunkIds": []
+      },
+      "192": {
+        "chunkId": "caa1b6",
+        "hash": "2339e67f",
+        "encoded": "-%20Check%20if%20the%20user%20can%20connect%20from%20your%20IP/container",
+        "prevChunkIds": []
+      },
+      "194": {
+        "chunkId": "caa1b6",
+        "hash": "7e3388d7",
+        "encoded": "**SSL%20Errors**",
+        "prevChunkIds": []
+      },
+      "195": {
+        "chunkId": "caa1b6",
+        "hash": "98c2dbfb",
+        "encoded": "-%20Try%20%60DB_SSLMODE=prefer%60%20for%20testing",
+        "prevChunkIds": []
+      },
+      "196": {
+        "chunkId": "caa1b6",
+        "hash": "25aae916",
+        "encoded": "-%20Ensure%20your%20database%20supports%20SSL%20connections",
+        "prevChunkIds": []
+      },
+      "198": {
+        "chunkId": "caa1b6",
+        "hash": "6c921a74",
+        "encoded": "###%20Viewing%20Logs",
+        "prevChunkIds": []
+      },
+      "200": {
+        "chunkId": "caa1b6",
+        "hash": "e2de6496",
+        "encoded": "**Direct%20execution:**",
+        "prevChunkIds": []
+      },
+      "201": {
+        "chunkId": "caa1b6",
+        "hash": "a6551730",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "202": {
+        "chunkId": "caa1b6",
+        "hash": "6c267d7e",
+        "encoded": "#%20Logs%20are%20output%20to%20stdout%20and%20to%20logs/sidecart.log",
+        "prevChunkIds": []
+      },
+      "203": {
+        "chunkId": "caa1b6",
+        "hash": "7a5a89f0",
+        "encoded": "tail%20-f%20logs/sidecart.log",
+        "prevChunkIds": []
+      },
+      "204": {
+        "chunkId": "caa1b6",
+        "hash": "a422f964",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "206": {
+        "chunkId": "caa1b6",
+        "hash": "97946b04",
+        "encoded": "**Docker%20execution:**",
+        "prevChunkIds": []
+      },
+      "207": {
+        "chunkId": "caa1b6",
+        "hash": "ad2d027b",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "208": {
+        "chunkId": "caa1b6",
+        "hash": "e0aee029",
+        "encoded": "#%20View%20container%20logs",
+        "prevChunkIds": []
+      },
+      "209": {
+        "chunkId": "caa1b6",
+        "hash": "1494cb70",
+        "encoded": "docker%20logs%20sidecart-app",
+        "prevChunkIds": []
+      },
+      "211": {
+        "chunkId": "caa1b6",
+        "hash": "b81bde25",
+        "encoded": "#%20Mount%20logs%20directory%20to%20host",
+        "prevChunkIds": []
+      },
+      "212": {
+        "chunkId": "caa1b6",
+        "hash": "0e5486c4",
+        "encoded": "docker%20run%20-v%20$(pwd)/logs:/app/logs%20--env-file%20.env%20sidecart:latest",
+        "prevChunkIds": []
+      },
+      "213": {
+        "chunkId": "caa1b6",
+        "hash": "5e2207ac",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "215": {
+        "chunkId": "caa1b6",
+        "hash": "3e3edb05",
+        "encoded": "##%20Example%20Usage%20Scenarios",
+        "prevChunkIds": []
+      },
+      "217": {
+        "chunkId": "caa1b6",
+        "hash": "fa4899c2",
+        "encoded": "###%20Scenario%201:%20Database%20Health%20Check",
+        "prevChunkIds": []
+      },
+      "218": {
+        "chunkId": "caa1b6",
+        "hash": "1d740748",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "219": {
+        "chunkId": "caa1b6",
+        "hash": "752c49e1",
+        "encoded": "#%20Quick%20connectivity%20test",
+        "prevChunkIds": []
+      },
+      "220": {
+        "chunkId": "caa1b6",
+        "hash": "743532d0",
+        "encoded": "python%20sidecart.py",
+        "prevChunkIds": []
+      },
+      "221": {
+        "chunkId": "caa1b6",
+        "hash": "8dfa6967",
+        "encoded": "#%20Look%20for%20%22Database%20connection%20test%20successful%22%20in%20output",
+        "prevChunkIds": []
+      },
+      "222": {
+        "chunkId": "caa1b6",
+        "hash": "4781336d",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "224": {
+        "chunkId": "caa1b6",
+        "hash": "dc47d531",
+        "encoded": "###%20Scenario%202:%20Scheduled%20Database%20Monitoring",
+        "prevChunkIds": []
+      },
+      "225": {
+        "chunkId": "caa1b6",
+        "hash": "aa43492f",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "226": {
+        "chunkId": "caa1b6",
+        "hash": "2199eb7b",
+        "encoded": "#%20Run%20in%20Docker%20with%20restart%20policy",
+        "prevChunkIds": []
+      },
+      "227": {
+        "chunkId": "caa1b6",
+        "hash": "1406a12c",
+        "encoded": "docker%20run%20-d%20%5C",
+        "prevChunkIds": []
+      },
+      "228": {
+        "chunkId": "caa1b6",
+        "hash": "540605f8",
+        "encoded": "--name%20sidecart-monitor%20%5C",
+        "prevChunkIds": []
+      },
+      "229": {
+        "chunkId": "caa1b6",
+        "hash": "ada8ba36",
+        "encoded": "--restart%20unless-stopped%20%5C",
+        "prevChunkIds": []
+      },
+      "230": {
+        "chunkId": "caa1b6",
+        "hash": "ecef1621",
+        "encoded": "--env-file%20.env%20%5C",
+        "prevChunkIds": []
+      },
+      "231": {
+        "chunkId": "caa1b6",
+        "hash": "203fcaa0",
+        "encoded": "sidecart:latest",
+        "prevChunkIds": []
+      },
+      "232": {
+        "chunkId": "caa1b6",
+        "hash": "89131f8b",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "234": {
+        "chunkId": "caa1b6",
+        "hash": "78fffa2a",
+        "encoded": "###%20Scenario%203:%20Development%20Testing",
+        "prevChunkIds": []
+      },
+      "235": {
+        "chunkId": "caa1b6",
+        "hash": "165a6f77",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "236": {
+        "chunkId": "caa1b6",
+        "hash": "b78cf844",
+        "encoded": "#%20Run%20with%20debug%20logging",
+        "prevChunkIds": []
+      },
+      "237": {
+        "chunkId": "caa1b6",
+        "hash": "6c1879d8",
+        "encoded": "LOG_LEVEL=DEBUG%20python%20sidecart.py",
+        "prevChunkIds": []
+      },
+      "238": {
+        "chunkId": "caa1b6",
+        "hash": "546cd3c4",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "240": {
+        "chunkId": "caa1b6",
+        "hash": "e77ede35",
+        "encoded": "##%20Integration%20with%20Terraform",
+        "prevChunkIds": []
+      },
+      "242": {
+        "chunkId": "caa1b6",
+        "hash": "42d6572e",
+        "encoded": "If%20you're%20using%20the%20accompanying%20Terraform%20configuration:",
+        "prevChunkIds": []
+      },
+      "244": {
+        "chunkId": "caa1b6",
+        "hash": "038da9bf",
+        "encoded": "1.%20Deploy%20the%20PostgreSQL%20RDS%20instance%20using%20Terraform",
+        "prevChunkIds": []
+      },
+      "245": {
+        "chunkId": "caa1b6",
+        "hash": "c10c4be3",
+        "encoded": "2.%20Use%20the%20Terraform%20outputs%20for%20your%20environment%20variables:",
+        "prevChunkIds": []
+      },
+      "246": {
+        "chunkId": "caa1b6",
+        "hash": "fcf65263",
+        "encoded": "-%20%60DB_HOST%60:%20Use%20the%20RDS%20endpoint%20output",
+        "prevChunkIds": []
+      },
+      "247": {
+        "chunkId": "caa1b6",
+        "hash": "8449068a",
+        "encoded": "-%20%60DB_NAME%60:%20Use%20the%20database%20name%20from%20Terraform",
+        "prevChunkIds": []
+      },
+      "248": {
+        "chunkId": "caa1b6",
+        "hash": "34a222d3",
+        "encoded": "-%20%60DB_USERNAME%60:%20Use%20the%20read-only%20user%20created%20by%20Terraform",
+        "prevChunkIds": []
+      },
+      "249": {
+        "chunkId": "caa1b6",
+        "hash": "8892653e",
+        "encoded": "-%20%60DB_PASSWORD%60:%20Use%20the%20password%20from%20Terraform%20outputs",
+        "prevChunkIds": []
+      },
+      "251": {
+        "chunkId": "caa1b6",
+        "hash": "385d2492",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "252": {
+        "chunkId": "caa1b6",
+        "hash": "b03fb142",
+        "encoded": "#%20Get%20Terraform%20outputs",
+        "prevChunkIds": []
+      },
+      "253": {
+        "chunkId": "caa1b6",
+        "hash": "64b1a5d2",
+        "encoded": "terraform%20output%20-json%20%3E%20outputs.json",
+        "prevChunkIds": []
+      },
+      "255": {
+        "chunkId": "caa1b6",
+        "hash": "470d1d91",
+        "encoded": "#%20Extract%20values%20for%20.env%20file",
+        "prevChunkIds": []
+      },
+      "256": {
+        "chunkId": "caa1b6",
+        "hash": "04f890cd",
+        "encoded": "echo%20%22DB_HOST=$(terraform%20output%20-raw%20rds_endpoint)%22%20%3E%3E%20.env",
+        "prevChunkIds": []
+      },
+      "257": {
+        "chunkId": "caa1b6",
+        "hash": "1b6283d7",
+        "encoded": "echo%20%22DB_NAME=$(terraform%20output%20-raw%20database_name)%22%20%3E%3E%20.env",
+        "prevChunkIds": []
+      },
+      "258": {
+        "chunkId": "caa1b6",
+        "hash": "d612ec24",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "260": {
+        "chunkId": "caa1b6",
+        "hash": "e88aa899",
+        "encoded": "---",
+        "prevChunkIds": []
+      },
+      "262": {
+        "chunkId": "caa1b6",
+        "hash": "825a7979",
+        "encoded": "**Note**:%20This%20tool%20is%20designed%20for%20read-only%20database%20access.%20For%20write%20operations,%20use%20appropriate%20database%20administration%20tools%20with%20proper%20authentication%20and%20authorization.",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

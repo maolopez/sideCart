@@ -1,0 +1,337 @@
+{
+  "cart/.gitignore": {
+    "filename": ".gitignore",
+    "path": "cart/.gitignore",
+    "version": "1.1",
+    "chunks": {
+      "c283a7": {
+        "user": "Mauricio Gutierrez Lopez",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1771532359,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.1.2",
+        "source": "agent",
+        "type": "agentEditTool",
+        "hash": "a517dbdd",
+        "messageId": "7a09e077-7238-4d42-87bd-601cda1d2cdb",
+        "codeBlockId": null,
+        "isActive": true
+      },
+      "fc40f1": {
+        "user": "Mauricio Gutierrez Lopez",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1771532359,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.1.2",
+        "source": "chat",
+        "type": "applyChanges",
+        "hash": "4e0d1e62",
+        "messageId": "system_dcfcd980-0dc6-11f1-b54f-33da00471b61",
+        "codeBlockId": null,
+        "isActive": false
+      },
+      "627f2a": {
+        "user": "Mauricio Gutierrez Lopez",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1771532404,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.1.2",
+        "source": "agent",
+        "type": "agentEditTool",
+        "hash": "0150c518",
+        "messageId": "7a09e077-7238-4d42-87bd-601cda1d2cdb",
+        "codeBlockId": null,
+        "isActive": true
+      },
+      "c7fd92": {
+        "user": "Mauricio Gutierrez Lopez",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1771532404,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.1.2",
+        "source": "agent",
+        "type": "agentEditTool",
+        "hash": "1ecb0112",
+        "messageId": "7a09e077-7238-4d42-87bd-601cda1d2cdb",
+        "codeBlockId": null,
+        "isActive": true
+      },
+      "dd34f0": {
+        "user": "Mauricio Gutierrez Lopez",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1771532437,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.1.2",
+        "source": "agent",
+        "type": "agentEditTool",
+        "hash": "f80b0b08",
+        "messageId": "7a09e077-7238-4d42-87bd-601cda1d2cdb",
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "1": {
+        "chunkId": "c283a7",
+        "hash": "e808e528",
+        "encoded": "#%20*.md%20-%20Commented%20out%20to%20allow%20README.md",
+        "prevChunkIds": [
+          "c283a7"
+        ]
+      },
+      "2": {
+        "chunkId": "c283a7",
+        "hash": "0ebd4618",
+        "encoded": "docs/",
+        "prevChunkIds": [
+          "c283a7"
+        ]
+      },
+      "43": {
+        "chunkId": "c7fd92",
+        "hash": "bdd2238d",
+        "encoded": "#%20Virtual%20environments",
+        "prevChunkIds": [
+          "c7fd92"
+        ]
+      },
+      "44": {
+        "chunkId": "c7fd92",
+        "hash": "f0f9e072",
+        "encoded": "venv/",
+        "prevChunkIds": [
+          "c7fd92"
+        ]
+      },
+      "45": {
+        "chunkId": "c7fd92",
+        "hash": "1bad288f",
+        "encoded": "env/",
+        "prevChunkIds": [
+          "c7fd92"
+        ]
+      },
+      "46": {
+        "chunkId": "c7fd92",
+        "hash": "b40f10f6",
+        "encoded": "ENV/",
+        "prevChunkIds": [
+          "c7fd92"
+        ]
+      },
+      "47": {
+        "chunkId": "c7fd92",
+        "hash": "87bdfaec",
+        "encoded": ".env",
+        "prevChunkIds": [
+          "c7fd92"
+        ]
+      },
+      "48": {
+        "chunkId": "c7fd92",
+        "hash": "c435ff9a",
+        "encoded": ".env.*",
+        "prevChunkIds": [
+          "c7fd92"
+        ]
+      },
+      "49": {
+        "chunkId": "c7fd92",
+        "hash": "6741c493",
+        "encoded": ".venv",
+        "prevChunkIds": [
+          "c7fd92"
+        ]
+      },
+      "68": {
+        "chunkId": "627f2a",
+        "hash": "6083cdf6",
+        "encoded": "#%20Security%20and%20Sensitive%20Files",
+        "prevChunkIds": [
+          "627f2a"
+        ]
+      },
+      "69": {
+        "chunkId": "627f2a",
+        "hash": "9c306810",
+        "encoded": "*.pem",
+        "prevChunkIds": [
+          "627f2a"
+        ]
+      },
+      "70": {
+        "chunkId": "627f2a",
+        "hash": "749c2c4a",
+        "encoded": "*.key",
+        "prevChunkIds": [
+          "627f2a"
+        ]
+      },
+      "71": {
+        "chunkId": "627f2a",
+        "hash": "c5dbec96",
+        "encoded": "*.crt",
+        "prevChunkIds": [
+          "627f2a"
+        ]
+      },
+      "72": {
+        "chunkId": "627f2a",
+        "hash": "412a9926",
+        "encoded": ".env.local",
+        "prevChunkIds": [
+          "627f2a"
+        ]
+      },
+      "73": {
+        "chunkId": "627f2a",
+        "hash": "2db6bcd3",
+        "encoded": ".env.production",
+        "prevChunkIds": [
+          "627f2a"
+        ]
+      },
+      "74": {
+        "chunkId": "627f2a",
+        "hash": "00e96f84",
+        "encoded": ".env.staging",
+        "prevChunkIds": [
+          "627f2a"
+        ]
+      },
+      "75": {
+        "chunkId": "627f2a",
+        "hash": "583f3bf8",
+        "encoded": ".env.development",
+        "prevChunkIds": [
+          "627f2a"
+        ]
+      },
+      "77": {
+        "chunkId": "dd34f0",
+        "hash": "840b222d",
+        "encoded": "#%20Terraform",
+        "prevChunkIds": []
+      },
+      "78": {
+        "chunkId": "dd34f0",
+        "hash": "1fe2094b",
+        "encoded": "*.tfstate",
+        "prevChunkIds": []
+      },
+      "79": {
+        "chunkId": "dd34f0",
+        "hash": "a56076ff",
+        "encoded": "*.tfstate.*",
+        "prevChunkIds": []
+      },
+      "80": {
+        "chunkId": "dd34f0",
+        "hash": "086bcde4",
+        "encoded": "*.tfstate.backup",
+        "prevChunkIds": []
+      },
+      "81": {
+        "chunkId": "dd34f0",
+        "hash": "61d2ef23",
+        "encoded": ".terraform/",
+        "prevChunkIds": []
+      },
+      "82": {
+        "chunkId": "dd34f0",
+        "hash": "c0b6fc7e",
+        "encoded": ".terraform.lock.hcl",
+        "prevChunkIds": []
+      },
+      "83": {
+        "chunkId": "dd34f0",
+        "hash": "3c5d97d7",
+        "encoded": "terraform.tfvars",
+        "prevChunkIds": []
+      },
+      "84": {
+        "chunkId": "dd34f0",
+        "hash": "7590448c",
+        "encoded": "terraform.tfvars.json",
+        "prevChunkIds": []
+      },
+      "85": {
+        "chunkId": "dd34f0",
+        "hash": "49309f94",
+        "encoded": "*.auto.tfvars",
+        "prevChunkIds": []
+      },
+      "86": {
+        "chunkId": "dd34f0",
+        "hash": "89a41314",
+        "encoded": "*.auto.tfvars.json",
+        "prevChunkIds": []
+      },
+      "88": {
+        "chunkId": "dd34f0",
+        "hash": "905e73c7",
+        "encoded": "#%20Docker",
+        "prevChunkIds": []
+      },
+      "89": {
+        "chunkId": "dd34f0",
+        "hash": "b2b3d442",
+        "encoded": ".dockerignore",
+        "prevChunkIds": []
+      },
+      "91": {
+        "chunkId": "dd34f0",
+        "hash": "70d9a6eb",
+        "encoded": "#%20Database",
+        "prevChunkIds": []
+      },
+      "92": {
+        "chunkId": "dd34f0",
+        "hash": "4b21612a",
+        "encoded": "*.db",
+        "prevChunkIds": []
+      },
+      "93": {
+        "chunkId": "dd34f0",
+        "hash": "41a903ee",
+        "encoded": "*.sqlite",
+        "prevChunkIds": []
+      },
+      "94": {
+        "chunkId": "dd34f0",
+        "hash": "29a968a9",
+        "encoded": "*.sqlite3",
+        "prevChunkIds": []
+      },
+      "96": {
+        "chunkId": "dd34f0",
+        "hash": "d6fe2605",
+        "encoded": "#%20Backup%20files",
+        "prevChunkIds": []
+      },
+      "97": {
+        "chunkId": "dd34f0",
+        "hash": "0c6be7e4",
+        "encoded": "*.bak",
+        "prevChunkIds": []
+      },
+      "98": {
+        "chunkId": "dd34f0",
+        "hash": "ef66c60f",
+        "encoded": "*.backup",
+        "prevChunkIds": []
+      },
+      "99": {
+        "chunkId": "dd34f0",
+        "hash": "6e3ddb3f",
+        "encoded": "*.orig",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

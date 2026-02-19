@@ -1,0 +1,49 @@
+{
+  "cart/terraform/outputs.tf": {
+    "filename": "outputs.tf",
+    "path": "cart/terraform/outputs.tf",
+    "version": "1.1",
+    "chunks": {
+      "54e1f7": {
+        "user": "Mauricio Gutierrez Lopez",
+        "model": "gpt-4.1",
+        "timestamp": 1771528595,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.1.2",
+        "source": "chat",
+        "type": "pasteCode",
+        "hash": "6c76ecf6",
+        "messageId": "system_dcfcd980-0dc6-11f1-b54f-33da00471b61",
+        "codeBlockId": "system_dcfcd980-0dc6-11f1-b54f-33da00471b61-Codeblock-3",
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "54e1f7",
+        "hash": "b2daac00",
+        "encoded": "output%20%22endpoint%22%20%7B",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "54e1f7",
+        "hash": "f070220d",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "54e1f7",
+        "hash": "0fa909ac",
+        "encoded": "output%20%22port%22%20%7B",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "54e1f7",
+        "hash": "c189436e",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

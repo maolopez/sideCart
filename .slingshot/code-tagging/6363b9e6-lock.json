@@ -1,0 +1,435 @@
+{
+  "sideCart/cart/terraform/variables.tf": {
+    "filename": "variables.tf",
+    "path": "sideCart/cart/terraform/variables.tf",
+    "version": "1.1",
+    "chunks": {
+      "b5655c": {
+        "user": "Mauricio Gutierrez Lopez",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1771529108,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.1.2",
+        "source": "agent",
+        "type": "agentEditTool",
+        "hash": "85af1d30",
+        "messageId": "7a09e077-7238-4d42-87bd-601cda1d2cdb",
+        "codeBlockId": null,
+        "isActive": true
+      },
+      "ef4449": {
+        "user": "Mauricio Gutierrez Lopez",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1771529625,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.1.2",
+        "source": "agent",
+        "type": "agentEditTool",
+        "hash": "28e2ca7a",
+        "messageId": "7a09e077-7238-4d42-87bd-601cda1d2cdb",
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "ef4449",
+        "hash": "52a37810",
+        "encoded": "variable%20%22db_name%22%20%7B",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "ef4449",
+        "hash": "a48c1396",
+        "encoded": "description%20=%20%22Database%20name%22",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "ef4449",
+        "hash": "41e4354c",
+        "encoded": "type%20%20%20%20%20%20%20%20=%20string",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "ef4449",
+        "hash": "57163c21",
+        "encoded": "default%20%20%20%20%20=%20%22pocdb%22",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "ef4449",
+        "hash": "22b977f0",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "ef4449",
+        "hash": "b53254a4",
+        "encoded": "variable%20%22db_username%22%20%7B",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "ef4449",
+        "hash": "c72002cf",
+        "encoded": "description%20=%20%22Database%20username%22",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "ef4449",
+        "hash": "d34e21ff",
+        "encoded": "type%20%20%20%20%20%20%20%20=%20string",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "ef4449",
+        "hash": "5e082074",
+        "encoded": "default%20%20%20%20%20=%20%22pocuser%22",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "ef4449",
+        "hash": "c2f1edd6",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "ef4449",
+        "hash": "1c45c694",
+        "encoded": "variable%20%22db_password%22%20%7B",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "ef4449",
+        "hash": "e7646e28",
+        "encoded": "description%20=%20%22Database%20password%22",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "ef4449",
+        "hash": "14e88372",
+        "encoded": "type%20%20%20%20%20%20%20%20=%20string",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "ef4449",
+        "hash": "bf1f4240",
+        "encoded": "sensitive%20%20%20=%20true",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "ef4449",
+        "hash": "0a373349",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "ef4449",
+        "hash": "d89b2740",
+        "encoded": "variable%20%22db_instance_class%22%20%7B",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "ef4449",
+        "hash": "4c0b87d4",
+        "encoded": "description%20=%20%22RDS%20instance%20class%22",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "ef4449",
+        "hash": "f17e0606",
+        "encoded": "type%20%20%20%20%20%20%20%20=%20string",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "ef4449",
+        "hash": "56adab40",
+        "encoded": "default%20%20%20%20%20=%20%22db.t3.micro%22",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "ef4449",
+        "hash": "4c3814eb",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "ef4449",
+        "hash": "7a0659b0",
+        "encoded": "variable%20%22security_group_name%22%20%7B",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "ef4449",
+        "hash": "caa2bc15",
+        "encoded": "description%20=%20%22Name%20for%20the%20RDS%20security%20group%22",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "ef4449",
+        "hash": "f6e5ef71",
+        "encoded": "type%20%20%20%20%20%20%20%20=%20string",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "ef4449",
+        "hash": "af30f747",
+        "encoded": "default%20%20%20%20%20=%20%22rds-poc-sg%22",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "ef4449",
+        "hash": "46b23985",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "ef4449",
+        "hash": "6b50dd57",
+        "encoded": "variable%20%22publicly_accessible%22%20%7B",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "ef4449",
+        "hash": "5386616b",
+        "encoded": "description%20=%20%22Whether%20the%20RDS%20instance%20should%20be%20publicly%20accessible%22",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "ef4449",
+        "hash": "81d68199",
+        "encoded": "type%20%20%20%20%20%20%20%20=%20bool",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "ef4449",
+        "hash": "08d4fe81",
+        "encoded": "default%20%20%20%20%20=%20true",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "ef4449",
+        "hash": "b8d59d8e",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "ef4449",
+        "hash": "6fedb325",
+        "encoded": "variable%20%22deletion_protection%22%20%7B",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "ef4449",
+        "hash": "f18625b1",
+        "encoded": "description%20=%20%22Enable%20deletion%20protection%20for%20RDS%20instance%22",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "ef4449",
+        "hash": "63a03c99",
+        "encoded": "type%20%20%20%20%20%20%20%20=%20bool",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "ef4449",
+        "hash": "b0251ff8",
+        "encoded": "default%20%20%20%20%20=%20false",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "ef4449",
+        "hash": "792377b1",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "ef4449",
+        "hash": "ee7c9088",
+        "encoded": "variable%20%22backup_retention_period%22%20%7B",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "ef4449",
+        "hash": "82c35708",
+        "encoded": "description%20=%20%22Number%20of%20days%20to%20retain%20backups%22",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "ef4449",
+        "hash": "db5d1dac",
+        "encoded": "type%20%20%20%20%20%20%20%20=%20number",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "ef4449",
+        "hash": "7aed2b01",
+        "encoded": "default%20%20%20%20%20=%200",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "ef4449",
+        "hash": "f9b2449c",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "ef4449",
+        "hash": "ce6626e3",
+        "encoded": "variable%20%22environment%22%20%7B",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "ef4449",
+        "hash": "44a3188a",
+        "encoded": "description%20=%20%22Environment%20tag%22",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "ef4449",
+        "hash": "28356056",
+        "encoded": "type%20%20%20%20%20%20%20%20=%20string",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "ef4449",
+        "hash": "d1c51d34",
+        "encoded": "default%20%20%20%20%20=%20%22poc%22",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "ef4449",
+        "hash": "88fadba2",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "53": {
+        "chunkId": "b5655c",
+        "hash": "80e3e0cd",
+        "encoded": "#%20If%20you%20want%20to%20make%20this%20configurable,%20uncomment%20and%20use%20these%20variables%20in%20main.tf",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "b5655c",
+        "hash": "13c6b987",
+        "encoded": "#%20variable%20%22db_name%22%20%7B",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "b5655c",
+        "hash": "c82ba99e",
+        "encoded": "#%20%20%20description%20=%20%22Database%20name%22",
+        "prevChunkIds": []
+      },
+      "57": {
+        "chunkId": "b5655c",
+        "hash": "b9ee53ee",
+        "encoded": "#%20%20%20type%20%20%20%20%20%20%20%20=%20string",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "b5655c",
+        "hash": "90b85b5b",
+        "encoded": "#%20%20%20default%20%20%20%20%20=%20%22pocdb%22",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "b5655c",
+        "hash": "15bd8d21",
+        "encoded": "#%20%7D",
+        "prevChunkIds": []
+      },
+      "61": {
+        "chunkId": "b5655c",
+        "hash": "6cbed9e9",
+        "encoded": "#%20variable%20%22db_username%22%20%7B",
+        "prevChunkIds": []
+      },
+      "62": {
+        "chunkId": "b5655c",
+        "hash": "fc4e71b9",
+        "encoded": "#%20%20%20description%20=%20%22Database%20username%22",
+        "prevChunkIds": []
+      },
+      "63": {
+        "chunkId": "b5655c",
+        "hash": "f3e477e7",
+        "encoded": "#%20%20%20type%20%20%20%20%20%20%20%20=%20string",
+        "prevChunkIds": []
+      },
+      "64": {
+        "chunkId": "b5655c",
+        "hash": "f1348cf8",
+        "encoded": "#%20%20%20default%20%20%20%20%20=%20%22pocuser%22",
+        "prevChunkIds": []
+      },
+      "65": {
+        "chunkId": "b5655c",
+        "hash": "69332c9b",
+        "encoded": "#%20%7D",
+        "prevChunkIds": []
+      },
+      "67": {
+        "chunkId": "b5655c",
+        "hash": "92bfd7cd",
+        "encoded": "#%20variable%20%22db_password%22%20%7B",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "b5655c",
+        "hash": "84cebd68",
+        "encoded": "#%20%20%20description%20=%20%22Database%20password%22",
+        "prevChunkIds": []
+      },
+      "69": {
+        "chunkId": "b5655c",
+        "hash": "0a91824a",
+        "encoded": "#%20%20%20type%20%20%20%20%20%20%20%20=%20string",
+        "prevChunkIds": []
+      },
+      "70": {
+        "chunkId": "b5655c",
+        "hash": "0172b86d",
+        "encoded": "#%20%20%20sensitive%20%20%20=%20true",
+        "prevChunkIds": []
+      },
+      "71": {
+        "chunkId": "b5655c",
+        "hash": "5949a5e2",
+        "encoded": "#%20%7D",
+        "prevChunkIds": []
+      },
+      "73": {
+        "chunkId": "b5655c",
+        "hash": "4579dd02",
+        "encoded": "#%20variable%20%22db_instance_class%22%20%7B",
+        "prevChunkIds": []
+      },
+      "74": {
+        "chunkId": "b5655c",
+        "hash": "b8be17bd",
+        "encoded": "#%20%20%20description%20=%20%22RDS%20instance%20class%22",
+        "prevChunkIds": []
+      },
+      "75": {
+        "chunkId": "b5655c",
+        "hash": "dec3ef06",
+        "encoded": "#%20%20%20type%20%20%20%20%20%20%20%20=%20string",
+        "prevChunkIds": []
+      },
+      "76": {
+        "chunkId": "b5655c",
+        "hash": "2f4445d6",
+        "encoded": "#%20%20%20default%20%20%20%20%20=%20%22db.t3.micro%22",
+        "prevChunkIds": []
+      },
+      "77": {
+        "chunkId": "b5655c",
+        "hash": "afe696ce",
+        "encoded": "#%20%7D",
+        "prevChunkIds": []
+      }
+    }
+  }
+}
