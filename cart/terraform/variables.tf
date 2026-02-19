@@ -51,3 +51,9 @@ variable "environment" {
   type        = string
   default     = "poc"
 }
+
+variable "readonly_password" {
+  description = "Read-only database password"
+  type        = string
+  sensitive   = true
+}

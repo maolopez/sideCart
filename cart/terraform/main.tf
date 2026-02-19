@@ -1,16 +1,17 @@
 module "postgresql" {
-  source                = "../../modules/posgreSQL"
-  db_name               = var.db_name
-  db_username           = var.db_username
-  db_password           = var.db_password
-  db_instance_class     = var.db_instance_class
+  source                 = "../../modules/posgreSQL"
+  db_name                = var.db_name
+  db_username            = var.db_username
+  db_password            = var.db_password
+  db_instance_class      = var.db_instance_class
   vpc_security_group_ids = [aws_security_group.rds.id]
-  subnet_ids            = data.aws_subnets.default.ids
+  subnet_ids             = data.aws_subnets.default.ids
 
   # Configuration from variables
   publicly_accessible     = var.publicly_accessible
   deletion_protection     = var.deletion_protection
   backup_retention_period = var.backup_retention_period
+  readonly_password       = var.readonly_password
 }
 
 resource "null_resource" "init_db" {
@@ -50,7 +51,7 @@ resource "aws_security_group" "rds" {
   }
 
   tags = {
-    Name = var.security_group_name
+    Name        = var.security_group_name
     Environment = var.environment
   }
 }
