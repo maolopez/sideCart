@@ -1,5 +1,11 @@
+# Git and version control
+.git
+.gitignore
+.gitattributes
+
 # Documentation
-# *.md - Commented out to allow README.md
+README.md
+*.md
 docs/
 
 # IDE and editor files
@@ -8,7 +14,6 @@ docs/
 *.swp
 *.swo
 *~
-.slingshot/
 
 # OS generated files
 .DS_Store
@@ -47,7 +52,6 @@ venv/
 env/
 ENV/
 .env
-.env.*
 .venv
 
 # Testing
@@ -67,35 +71,16 @@ logs/
 *.tmp
 *.temp
 
-# Security and Sensitive Files
+# Security
 *.pem
 *.key
 *.crt
 .env.local
 .env.production
-.env.staging
-.env.development
 
-# Terraform
+# Terraform (if present)
 *.tfstate
 *.tfstate.*
-*.tfstate.backup
 .terraform/
 .terraform.lock.hcl
 terraform.tfvars
-terraform.tfvars.json
-*.auto.tfvars
-*.auto.tfvars.json
-
-# Docker
-#.dockerignore
-
-# Database
-*.db
-*.sqlite
-*.sqlite3
-
-# Backup files
-*.bak
-*.backup
-*.orig
