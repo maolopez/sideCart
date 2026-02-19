@@ -1,0 +1,34 @@
+# PostgreSQL Database Configuration
+# Copy this file to .env and fill in your actual values
+
+# Database connection details (from Terraform outputs)
+DB_HOST=your-rds-endpoint.region.rds.amazonaws.com
+DB_PORT=5432
+DB_NAME=your-database-name
+
+# Read-only user credentials (created by Terraform)
+DB_READONLY_USERNAME=readonly_user
+DB_READONLY_PASSWORD=your-readonly-password
+
+# SSL and connection settings
+DB_SSLMODE=require
+DB_CONNECT_TIMEOUT=10
+
+# Optional: Override default values
+# DB_MIN_CONNECTIONS=1
+# DB_MAX_CONNECTIONS=5
+
+# Application settings
+LOG_LEVEL=INFO
+APP_ENV=production
+
+# Terraform variables for PostgreSQL RDS PoC (terraform.tfvars)
+# db_name               = "pocdb"
+# db_username           = "pocuser"
+# db_password           = "PocUserSecurePass123!"
+# db_instance_class     = "db.t3.micro"
+# security_group_name   = "rds-poc-sg"
+# publicly_accessible   = true
+# deletion_protection   = false
+# backup_retention_period = 0
+# environment           = "poc"
