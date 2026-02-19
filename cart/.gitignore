@@ -8,6 +8,7 @@ docs/
 *.swp
 *.swo
 *~
+.slingshot/
 
 # OS generated files
 .DS_Store
